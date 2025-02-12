@@ -3,7 +3,7 @@
 
 This repository contains Python scripts and tools designed for **ethical website hacking and security testing**. The tools cover various aspects of **web security**, including **information gathering, gaining access, and vulnerability scanning**.  
 
-Each chapter folder contains the tools discussed, with separate **`README.md`** and **`requirements.txt`** files. Before running any tool, ensure you install the required dependencies:  
+Each chapter folder contains the tools discussed, with separate **`requirements.txt`** files. Before running any tool, ensure you install the required dependencies:  
 
 ```sh
 pip install -r requirements.txt
