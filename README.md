@@ -1,5 +1,5 @@
 
-# **Ethical Website Hacking with Python**  
+# **Web Security with Python**  
 
 This repository contains Python scripts and tools designed for **Web Security with Python eBook**. The tools cover various aspects of **web security**, including **information gathering, gaining access, and vulnerability scanning**.  
 
