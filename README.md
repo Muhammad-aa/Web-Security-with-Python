@@ -16,7 +16,7 @@ pip install -r requirements.txt
 This chapter focuses on reconnaissance techniques to **collect information** about target websites.  
 
 ### 🔹 **Admin Panel Finder**  
-- [`admin_panel_finder.py`](admin_panel_finder.py) - Scans for potential admin panel locations on a website.  
+- [`admin_panel_finder.py`](Chapter 2 - Information Gathering/Admin Panel Finder/admin_panel_finder.py) - Scans for potential admin panel locations on a website.  
 
 ### 🔹 **Domain Names**  
 - [`dns_enumeration.py`](dns_enumeration.py) - Enumerates DNS records of a target domain.  
