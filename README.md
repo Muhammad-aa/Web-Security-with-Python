@@ -1,94 +1,96 @@
-Ethical Website Hacking with Python
-This repository contains Python scripts and tools designed for ethical website hacking and security testing. The tools cover various aspects of web security, including information gathering, gaining access, and vulnerability scanning.
 
-Each chapter folder contains tools discussed in that section, with separate README.md and requirements.txt files. Ensure you install the required dependencies before running any tool:
-$ pip install -r requirements.txt
+# **Ethical Website Hacking with Python**  
 
+This repository contains Python scripts and tools designed for **ethical website hacking and security testing**. The tools cover various aspects of **web security**, including **information gathering, gaining access, and vulnerability scanning**.  
 
-Chapter 2: Information Gathering
-This chapter focuses on reconnaissance techniques to collect information about target websites.
-Admin Panel Finder
+Each chapter folder contains the tools discussed, with separate **`README.md`** and **`requirements.txt`** files. Before running any tool, ensure you install the required dependencies:  
 
+```sh
+pip install -r requirements.txt
+```  
 
-admin_panel_finder.py - Scans for potential admin panel locations on a website.
-Domain Names
+---
 
+## 📌 **Chapter 2: Information Gathering**  
 
-dns_enumeration.py - Enumerates DNS records of a target domain.
-domain_info_extractor.py - Extracts domain registration and WHOIS information.
-domain_validator.py - Checks if a domain is valid and active.
-domain_whois.py - Retrieves WHOIS records of a domain.
-subdomain_scanner.py - Scans for subdomains associated with a target domain.
-subdomains.txt - A wordlist for subdomain enumeration.
-Email Extracting
+This chapter focuses on reconnaissance techniques to **collect information** about target websites.  
 
+### 🔹 **Admin Panel Finder**  
+- [`admin_panel_finder.py`](admin_panel_finder.py) - Scans for potential admin panel locations on a website.  
 
-email_extractor.py - Extracts email addresses from web pages.
-Port Scanning
+### 🔹 **Domain Names**  
+- [`dns_enumeration.py`](dns_enumeration.py) - Enumerates DNS records of a target domain.  
+- [`domain_info_extractor.py`](domain_info_extractor.py) - Extracts domain registration and WHOIS information.  
+- [`domain_validator.py`](domain_validator.py) - Checks if a domain is valid and active.  
+- [`domain_whois.py`](domain_whois.py) - Retrieves WHOIS records of a domain.  
+- [`subdomain_scanner.py`](subdomain_scanner.py) - Scans for subdomains associated with a target domain.  
+- [`subdomains.txt`](subdomains.txt) - A wordlist for subdomain enumeration.  
 
+### 🔹 **Email Extracting**  
+- [`email_extractor.py`](email_extractor.py) - Extracts email addresses from web pages.  
 
-fast_port_scanner.py - Quickly scans for open ports on a target.
-nmap_port_scanner.py - Uses Nmap to scan ports and services.
-port_scanner.py - A basic port scanner for identifying open ports.
-Reverse DNS Lookup
+### 🔹 **Port Scanning**  
+- [`fast_port_scanner.py`](fast_port_scanner.py) - Quickly scans for open ports on a target.  
+- [`nmap_port_scanner.py`](nmap_port_scanner.py) - Uses **Nmap** to scan ports and services.  
+- [`port_scanner.py`](port_scanner.py) - A basic port scanner for identifying open ports.  
 
+### 🔹 **Reverse DNS Lookup**  
+- [`reverse_dns_lookup.py`](reverse_dns_lookup.py) - Resolves IP addresses back to domain names.  
 
-reverse_dns_lookup.py - Resolves IP addresses back to domain names.
-Website Crawler
+### 🔹 **Website Crawler**  
+- [`website_crawler.py`](website_crawler.py) - Crawls a website to discover internal links and resources.  
 
+---
 
-website_crawler.py - Crawls a website to discover internal links and resources.
-Chapter 3: Gaining Access
-This chapter includes tools for testing authentication mechanisms and proxy configurations.
-FTP Brute Force
+## 🔓 **Chapter 3: Gaining Access**  
 
+This chapter includes tools for **testing authentication mechanisms** and **proxy configurations**.  
 
-ftp_bruteforce.py - Attempts to brute-force FTP credentials.
-HTTP Proxy
+### 🔹 **FTP Brute Force**  
+- [`ftp_bruteforce.py`](ftp_bruteforce.py) - Attempts to brute-force FTP credentials.  
 
+### 🔹 **HTTP Proxy**  
+- [`http_proxy.py`](http_proxy.py) - Implements an HTTP proxy for monitoring and modifying requests.  
 
-http_proxy.py - Implements an HTTP proxy for monitoring and modifying requests.
-Listing FTP Files
+### 🔹 **Listing FTP Files**  
+- [`list_ftp_files.py`](list_ftp_files.py) - Lists available files on an FTP server.  
 
+### 🔹 **Login Password Guesser**  
+- [`login_password_guesser.py`](login_password_guesser.py) - Attempts login guesses against a target system.  
 
-list_ftp_files.py - Lists available files on an FTP server.
-Login Password Guesser
+### 🔹 **Rotating Proxies**  
+- [`free_proxies.py`](free_proxies.py) - Fetches and rotates through free proxies for anonymity.  
+- [`tor_proxy.py`](tor_proxy.py) - Routes traffic through the **Tor network**.  
+- [`using_crawlera.py`](using_crawlera.py) - Uses a **web crawling proxy setup**.  
 
+### 🔹 **SSH Brute Force**  
+- [`ssh_bruteforce.py`](ssh_bruteforce.py) - Attempts to brute-force SSH credentials.  
 
-login_password_guesser.py - Attempts login guesses against a target system.
-Rotating Proxies
+### 🔹 **TCP Proxy**  
+- [`tcp_proxy.py`](tcp_proxy.py) - Implements a TCP proxy to intercept and modify network traffic.  
 
+---
 
-free_proxies.py - Fetches and rotates through free proxies for anonymity.
-tor_proxy.py - Routes traffic through the Tor network.
-using_crawlera.py - Uses a web crawling proxy setup.
-SSH Brute Force
+## 🛡️ **Chapter 4: Vulnerability Scanning**  
 
+This chapter focuses on **identifying web application vulnerabilities**.  
 
-ssh_bruteforce.py - Attempts to brute-force SSH credentials.
-TCP Proxy
+### 🔹 **Clickjacking Scanner**  
+- [`clickjacking_scanner.py`](clickjacking_scanner.py) - Detects websites vulnerable to **clickjacking attacks**.  
 
+### 🔹 **Command Injection Vulnerability Scanner**  
+- [`command_injection_scanner.py`](command_injection_scanner.py) - Checks if a website is vulnerable to **command injection attacks**.  
 
-tcp_proxy.py - Implements a TCP proxy to intercept and modify network traffic.
-Chapter 4: Vulnerability Scanning
-This chapter focuses on identifying web application vulnerabilities.
-Clickjacking Scanner
+### 🔹 **SQLi Scanner**  
+- [`sql_injection_detector.py`](sql_injection_detector.py) - Scans for **SQL Injection (SQLi) vulnerabilities** in web applications.  
 
+### 🔹 **XSS Vulnerability Scanner**  
+- [`xss_scanner.py`](xss_scanner.py) - Detects **Cross-Site Scripting (XSS) vulnerabilities**.  
+- [`xss_scanner_extended.py`](xss_scanner_extended.py) - An **advanced XSS scanner** with additional payloads.  
 
-clickjacking_scanner.py - Detects websites vulnerable to clickjacking attacks.
-Command Injection Vulnerability Scanner
+---
 
+### ⚠️ **Disclaimer**  
+This repository is **strictly for educational and ethical hacking purposes**. Unauthorized use of these scripts on systems without permission is **illegal**. Use them responsibly!  
 
-command_injection_scanner.py - Checks if a website is vulnerable to command injection attacks.
-SQLi Scanner
-
-
-sql_injection_detector.py - Scans for SQL Injection vulnerabilities in web applications.
-XSS Vulnerability Scanner
-
-
-xss_scanner.py - Detects Cross-Site Scripting (XSS) vulnerabilities.
-xss_scanner_extended.py - An advanced XSS scanner with additional payloads.
-
-This repository is continually updated with new tools and improvements. Stay ethical and use these tools responsibly! 🚀
-
+🚀 **Stay ethical and secure the web!**
