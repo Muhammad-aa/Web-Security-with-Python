@@ -17,10 +17,8 @@ This chapter focuses on reconnaissance techniques to **collect information** abo
 
 ### 🔹 **Admin Panel Finder**  
 <<<<<<< HEAD
-- [`admin_panel_finder.py`](ChapterInformationGathering/AdminPanel Finder/admin_panel_finder.py) - Scans for potential admin panel locations on a website.  
+- [`admin_panel_finder.py`](Chapter-2/Admin-Panel-Finder/admin_panel_finder.py) - Scans for potential admin panel locations on a website.  
 =======
-- [`admin_panel_finder.py`](Chapter 2 - Information Gathering/Admin Panel Finder/admin_panel_finder.py) - Scans for potential admin panel locations on a website.  
->>>>>>> 100c459f0592f04b57a72f20eba04748c9e87f31
 
 ### 🔹 **Domain Names**  
 - [`dns_enumeration.py`](dns_enumeration.py) - Enumerates DNS records of a target domain.  
