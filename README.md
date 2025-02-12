@@ -43,7 +43,7 @@ This chapter focuses on reconnaissance techniques to **collect information** abo
 
 ---
 
-## 🔓 **Chapter 3: Gaining Access**  
+## 🔓 **Chapter 3: Gaining Access and Web Utilities**  
 
 This chapter includes tools for **testing authentication mechanisms** and **proxy configurations**.  
 
