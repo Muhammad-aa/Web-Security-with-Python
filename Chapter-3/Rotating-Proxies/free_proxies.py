@@ -2,20 +2,16 @@ import requests
 import random
 from bs4 import BeautifulSoup as bs
 
+
 def get_free_proxies():
-    url = "https://free-proxy-list.net/"
-    # get the HTTP response and construct soup object
-    soup = bs(requests.get(url).content, "html.parser")
+    response = requests.get("https://free-proxy-list.net/")
+    soup = BeautifulSoup(response.text, "html.parser")
     proxies = []
-    for row in soup.find("table", attrs={"id": "proxylisttable"}).find_all("tr")[1:]:
-        tds = row.find_all("td")
-        try:
-            ip = tds[0].text.strip()
-            port = tds[1].text.strip()
-            host = f"{ip}:{port}"
-            proxies.append(host)
-        except IndexError:
-            continue
+    table = soup.find("table", {"class": "table-striped"})
+    for row in table.tbody.find_all("tr"):
+        ip = row.find_all("td")[0].text
+        port = row.find_all("td")[1].text
+        proxies.append(f"{ip}:{port}")
     return proxies
 
 
