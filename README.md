@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 **Chapter 2: Information Gathering**  
+## **Chapter 2: Information Gathering**  
 
 This chapter focuses on reconnaissance techniques to **collect information** about target websites.  
 
@@ -43,7 +43,7 @@ This chapter focuses on reconnaissance techniques to **collect information** abo
 
 ---
 
-## 🔓 **Chapter 3: Gaining Access and Web Utilities**  
+## **Chapter 3: Gaining Access and Web Utilities**  
 
 This chapter includes tools for **testing authentication mechanisms** and **proxy configurations**.  
 
@@ -72,7 +72,7 @@ This chapter includes tools for **testing authentication mechanisms** and **prox
 
 ---
 
-## 🛡️ **Chapter 4: Vulnerability Scanning**  
+## **Chapter 4: Vulnerability Scanning**  
 
 This chapter focuses on **identifying web application vulnerabilities**.  
 
@@ -91,7 +91,7 @@ This chapter focuses on **identifying web application vulnerabilities**.
 
 ---
 
-### ⚠️ **Disclaimer**  
+### **Disclaimer**  
 This repository is **strictly for educational and ethical hacking purposes**. Unauthorized use of these scripts on systems without permission is **illegal**. Use them responsibly!  
 
-🚀 **Stay ethical and secure the web!**
+**Stay ethical and secure the web!**
