@@ -62,7 +62,10 @@ This chapter includes tools for **testing authentication mechanisms** and **prox
 ### 🔹 **Rotating Proxies**  
 - [`free_proxies.py`](Chapter-3/Rotating-Proxies/free_proxies.py) - Fetches and rotates through free proxies for anonymity.  
 - [`tor_proxy.py`](Chapter-3/Rotating-Proxies/tor_proxy.py) - Routes traffic through the **Tor network**.  
- 
+
+### 🔹 **Session Hijacking**  
+- [`hijack_session.py`](Chapter-3/Session-Hijacking/hijack_session.py) - Demonstrates session hijacking.
+- [`vulnerable_app.py`](Chapter-3/Session-Hijacking/vulnerable_app.py) - A Flask App to demonstrate session hijacking. 
 
 ### 🔹 **SSH Brute Force**  
 - [`ssh_bruteforce.py`](Chapter-3/SSH-Brute-Force/ssh_bruteforce.py) - Attempts to brute-force SSH credentials.  
